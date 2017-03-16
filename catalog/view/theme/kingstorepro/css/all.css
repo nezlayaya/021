@@ -1,0 +1,78 @@
+.megamenu-wrapper {
+    background-color: rgba(156, 39, 176, 0.3);
+}
+
+.megamenu-wrapper li strong {
+	color: darkmagenta;
+}
+body a:hover{
+    color: rgba(126, 9, 146, 0.99)!important;
+}
+#cart .cart-heading,
+#header .button-search,
+.scrollup,
+.copyright,
+.button,
+.product-grid .product .product-icon,
+.product-info .product-icon,
+.product-grid .product .image .quickview a,
+.htabs a.selected{
+    background-color: rgba(156, 39, 176, 0.67);
+}
+.button,
+.htabs a.selected{
+    border: 1px solid rgba(156, 39, 176, 0.3);
+}
+#header .button-search:hover,
+.button:hover,
+.htabs a.selected:hover,
+.product-info .product-icon:hover,
+.htabs a:hover{
+    color: #090300;
+    background-color: rgba(156, 39, 176, 0.3);
+}
+ul.megamenu > li:hover{
+    background-color: rgba(156, 39, 176, 0.67);
+}
+ul.megamenu li .sub-menu .content {
+	
+    background: rgba(156, 39, 176, 0.3);
+	border: none;
+}
+ul.megamenu li .sub-menu .content .hover-menu li > a {
+	color: #fff !important;
+}
+ul.megamenu li .sub-menu .content .hover-menu li > a:hover {
+    background-color: rgba(156, 39, 176, 0.67);
+}
+ul.megamenu > li:hover strong{
+    color: #fff;
+}
+.filter-product .filter-tabs ul::before{
+    border-bottom: 2px solid rgba(156, 39, 176, 0.3);
+}
+.megamenu-wrapper strong,
+#cart .cart-heading a{
+    color: #090300;
+}
+.box-content.box-information{
+    border: none;
+}
+.box-information > ul > li > a{
+    font-size: 16px;
+}
+.panel-heading,
+.ulogin_form{
+    display: inline-block;
+    vertical-align: middle;
+}
+.panel{
+    background-color: #f5f5f5;
+}
+.product-grid .product .image .quickview a:hover,
+.product-grid .product .product-icon:hover{
+    background-color: #fff;
+}
+.copyright, .copyright a{
+    color: #fff;
+}

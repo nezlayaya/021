@@ -1,0 +1,44 @@
+<modification>
+    <name>AddThis by iSenseLabs</name>
+    <version>2.1</version>
+    <link>http://isenselabs.com</link>
+    <author>iSenseLabs</author>
+  <code>isenselabs_addthis</code>
+
+  <file path="catalog/controller/product/product.php">
+    <operation>
+      <search> <![CDATA[$this->response->setOutput($this->load->view('product/product', $data));]]>
+      </search>
+      <add position="before">
+        <![CDATA[
+        $this->load->model('extension/module/addthis');
+        $moduleSettingAddthis = $this->model_extension_module_addthis->getSetting('addthis', $this->config->get('config_store_id'));
+        $data['addthisData'] = isset($moduleSettingAddthis['addthis']) ? $moduleSettingAddthis['addthis'] : array();]]></add>
+      </operation>
+  </file>
+
+  <file path="catalog/view/theme/*/template/product/product.tpl">
+    <operation>
+      <search> <![CDATA[<div class="addthis_toolbox addthis_default_style" data-url="<?php echo $share; ?>"><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>]]>
+          </search>
+          <add position="before"><![CDATA[
+            <?php if ($addthisData['Inherent'] == '1' && $addthisData['InherentDesign'] == '1'){ ?>
+                  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<?php echo $addthisData['ID']; ?>"></script>
+
+                 <div class="addthis_<?php echo $addthisData['ButtonsDesign']; ?>_toolbox" data-url="<?php if (!isset($addthisData['CustomURL']) || $addthisData['InherentCustom'] == '0'){echo "";} else { echo $addthisData['CustomURL'];} ?>" data-title="<?php if (!isset($addthisData['CustomTitle']) || $addthisData['InherentCustom'] == '0'){echo "";} else { echo $addthisData['CustomTitle'];} ?>"></div>
+
+        <?php } elseif ($addthisData['Inherent'] != '1' && $addthisData['InherentDesign'] != '1') { ?>
+                  <!-- --> 
+                  <?php } else { ?>  
+                 ]]></add>
+        </operation>
+      
+      <operation>
+      <search> <![CDATA[<!-- AddThis Button END -->]]>
+          </search>
+          <add position="before"><![CDATA[
+            <?php } ?>
+                 ]]></add>
+        </operation>
+    </file>
+</modification>

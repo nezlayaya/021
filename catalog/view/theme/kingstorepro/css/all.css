@@ -1,7 +1,6 @@
 .megamenu-wrapper {
     background-color: rgba(156, 39, 176, 0.3);
 }
-
 .megamenu-wrapper li strong {
 	color: darkmagenta;
 }
@@ -17,7 +16,7 @@ body a:hover{
 .product-info .product-icon,
 .product-grid .product .image .quickview a,
 .htabs a.selected{
-    background-color: rgba(156, 39, 176, 0.67);
+    background-color: rgba(156, 39, 176, 0.3);
 }
 .button,
 .htabs a.selected{
@@ -29,21 +28,24 @@ body a:hover{
 .product-info .product-icon:hover,
 .htabs a:hover{
     color: #090300;
-    background-color: rgba(156, 39, 176, 0.3);
+    background-color: darkmagenta;
+}
+a.button:hover span{
+    color: #fff!important;
 }
 ul.megamenu > li:hover{
-    background-color: rgba(156, 39, 176, 0.67);
+    background-color: darkmagenta;
 }
 ul.megamenu li .sub-menu .content {
 	
-    background: rgba(156, 39, 176, 0.3);
+    background: rgba(156, 39, 176, 0.67);
 	border: none;
 }
 ul.megamenu li .sub-menu .content .hover-menu li > a {
 	color: #fff !important;
 }
 ul.megamenu li .sub-menu .content .hover-menu li > a:hover {
-    background-color: rgba(156, 39, 176, 0.67);
+    background-color: darkmagenta;
 }
 ul.megamenu > li:hover strong{
     color: #fff;
@@ -74,5 +76,12 @@ ul.megamenu > li:hover strong{
     background-color: #fff;
 }
 .copyright, .copyright a{
+    color: #fff;
+}
+#header .button-search:hover,
+body .button:hover,
+.htabs a.selected:hover,
+.product-info .product-icon:hover,
+.htabs a:hover{
     color: #fff;
 }

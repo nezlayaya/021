@@ -11,3 +11,4 @@ gen
 /.htaccess
 /config.php
 /admin/config.php
+/system/storage/cache/

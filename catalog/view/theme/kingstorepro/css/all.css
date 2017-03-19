@@ -79,7 +79,8 @@ ul.megamenu > li:hover strong{
     color: #fff;
 }
 #header .button-search:hover,
-body .button:hover,
+body a.button:hover,
+.checkout a.button,
 .htabs a.selected:hover,
 .product-info .product-icon:hover,
 .htabs a:hover,

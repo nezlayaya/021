@@ -82,7 +82,7 @@
 								<?php } } ?>
 							</h2>
 
-							<div class="col-sm-<?php echo $grid_content_top; ?> center-column main-cabinet">
+							<div class="col-sm-<?php echo $grid_content_top; ?> center-column">
 
 								<?php if (isset($error_warning)) { ?>
 									<?php if ($error_warning) { ?>

@@ -22,16 +22,22 @@ body a:hover{
 .htabs a.selected{
     border: 1px solid rgba(156, 39, 176, 0.3);
 }
+div.wishlist > a,
+div.compare > a,
+div.quickview > a {
+    border: 1px solid rgba(156, 39, 176, 0.3) !important;
+}
+
 #header .button-search:hover,
 .button:hover,
 .htabs a.selected:hover,
 .product-info .product-icon:hover,
 .htabs a:hover{
-    color: #090300;
+    color: #fff !important;
     background-color: darkmagenta;
 }
 a.button:hover span{
-    color: #fff!important;
+    color: #fff !important;
 }
 ul.megamenu > li:hover{
     background-color: darkmagenta;

@@ -144,6 +144,7 @@ var cart = {
 			data: 'product_id=' + product_id + '&quantity=' + (typeof(quantity) != 'undefined' ? quantity : 1),
 			dataType: 'json',
 			beforeSend: function() {
+                $('#cart').removeClass('hidden');
 				$('#cart > button').button('loading');
 			},
 			complete: function() {
@@ -181,7 +182,8 @@ var cart = {
 			data: 'key=' + key + '&quantity=' + (typeof(quantity) != 'undefined' ? quantity : 1),
 			dataType: 'json',
 			beforeSend: function() {
-				$('#cart > button').button('loading');
+                $('#cart').removeClass('hidden');
+                $('#cart > button').button('loading');
 			},
 			complete: function() {
 				$('#cart > button').button('reset');
@@ -220,7 +222,7 @@ var cart = {
 				setTimeout(function () {
 					$('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
 				}, 100);
-				
+
 				var now_location = String(document.location.pathname);
 
 				if ((now_location == '/cart/') || (now_location == '/checkout/') || (getURLVar('route') == 'checkout/cart') || (getURLVar('route') == 'checkout/checkout')) {

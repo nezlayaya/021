@@ -224,7 +224,8 @@ var cart = {
 			type: 'post',
 			data: 'product_id=' + product_id + '&quantity=' + (typeof(quantity) != 'undefined' ? quantity : 1),
 			dataType: 'json',
-			success: function(json) {			
+			success: function(json) {
+                $('#cart').removeClass('hidden');
 				if (json['redirect']) {
 					location = json['redirect'];
 				}
@@ -248,7 +249,13 @@ var cart = {
 			data: 'key=' + key + '&quantity=' + (typeof(quantity) != 'undefined' ? quantity : 1),
 			dataType: 'json',
 			success: function(json) {
-				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
+
+				if(0 < json['total']) {
+                    $('#cart').removeClass('hidden');
+                } else {
+                    $('#cart').addClass('hidden');
+                }
+                if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
 					location = 'index.php?route=checkout/cart';
 				} else {
 					$('#cart #cart_content').load('index.php?route=common/cart/info #cart_content_ajax');
@@ -264,6 +271,13 @@ var cart = {
 			data: 'key=' + key,
 			dataType: 'json',			
 			success: function(json) {
+
+                if(0 < json['total']) {
+                    $('#cart').removeClass('hidden');
+                } else {
+                    $('#cart').addClass('hidden');
+                }
+
 				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
 					location = 'index.php?route=checkout/cart';
 				} else {

@@ -75,13 +75,14 @@
 								}
 							}
 							?>
+
+							<h2 id="title-page-main"><?php echo $heading_title; ?>
+								<?php if(isset($weight)) { if ($weight) { ?>
+								&nbsp;(<?php echo $weight; ?>)
+								<?php } } ?>
+							</h2>
+
 							<div class="col-sm-<?php echo $grid_content_top; ?> center-column">
-							
-								<h2 id="title-page"><?php echo $heading_title; ?>
-									<?php if(isset($weight)) { if ($weight) { ?>
-									&nbsp;(<?php echo $weight; ?>)
-									<?php } } ?>
-								</h2>
 
 								<?php if (isset($error_warning)) { ?>
 									<?php if ($error_warning) { ?>

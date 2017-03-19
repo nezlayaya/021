@@ -16,7 +16,7 @@ body a:hover{
 .product-info .product-icon,
 .product-grid .product .image .quickview a,
 .htabs a.selected{
-    background-color: rgba(156, 39, 176, 0.3);
+    background-color: rgba(156, 39, 176, 0.46);
 }
 .button,
 .htabs a.selected{
@@ -79,11 +79,56 @@ ul.megamenu > li:hover strong{
     color: #fff;
 }
 #header .button-search:hover,
-body .button:hover,
+body a.button:hover,
+.checkout a.button,
 .htabs a.selected:hover,
 .product-info .product-icon:hover,
-.htabs a:hover{
-    color: #fff;
+.htabs a:hover,
+.right a.button:hover{
+    color: #fff!important;
+}
+body .pull-right a:hover{
+    color: #fff!important;
+}
+.main-cabinet #title-page{
+    text-align: center;
+}
+.main-cabinet{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.main-cabinet .content{
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 20px;
+}
+.main-cabinet .content h2{
+    color: darkmagenta;
+}
+#title-page-main{
+    display: block;
+    text-align: center;
+}
+.breadcrumb a{
+    font-size: 12px;
+}
+fieldset{
+    text-align: center;
+}
+.form-group.required label{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+.form-group.required label+div{
+    float: none;
+    padding: 0;
+    width: auto;
+}
+#search input{
+    outline: none;
 }
 #scroller_container {
     position: relative;

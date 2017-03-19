@@ -84,8 +84,14 @@ body a.button:hover,
 .htabs a.selected:hover,
 .product-info .product-icon:hover,
 .htabs a:hover,
-.right a.button:hover{
+input.button:hover,
+.dropdown-menu li:hover a,
+.right a.button:hover,
+button.button.modal-left-button:hover{
     color: #fff!important;
+}
+.buttons{
+    text-align: center;
 }
 body .pull-right a:hover{
     color: #fff!important;
@@ -129,4 +135,15 @@ fieldset{
 }
 #search input{
     outline: none;
+}
+form.form-horizontal{
+    width: 50%;
+    margin: 0 auto;
+}
+form.form-horizontal input{
+    text-align: center;
+    margin: 15px 0;
+}
+.form-group label{
+    display: none;
 }

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f64cf6-e325-444c-af23-70643a31cccb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/catalog/kingstorepro/visa.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/ru-ru/account/login.php" afterPath="$PROJECT_DIR$/catalog/language/ru-ru/account/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css" afterPath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/skins/store_default/kingstorelitedefault/settings.json" afterPath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/skins/store_default/kingstorelitedefault/settings.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +24,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/language/ru-ru/account/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -34,8 +47,8 @@
       <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/extension/module/category.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+            <state relative-caret-position="255">
+              <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -44,7 +57,7 @@
       <file leaf-file-name="themeglobal_top.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/themeglobal/themeglobal_top.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="34">
               <caret line="84" column="93" lean-forward="false" selection-start-line="84" selection-start-column="93" selection-end-line="84" selection-end-column="93" />
               <folding />
             </state>
@@ -55,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/affiliate/account.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -84,8 +97,8 @@
       <file leaf-file-name="account.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/account/account.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
@@ -120,6 +133,9 @@
       <find>box box-categories box-with-categories</find>
       <find>main-cabinet</find>
       <find>title-page-main</find>
+      <find>кабинет</find>
+      <find>р</find>
+      <find>RАБИНЕТ</find>
     </findStrings>
     <dirStrings>
       <dir>D:\my-program\OpenServer\domains\021.com.ua</dir>
@@ -135,6 +151,7 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/themeglobal/themeglobal_top.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/account/account.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css" />
+        <option value="$PROJECT_DIR$/catalog/language/ru-ru/account/login.php" />
       </list>
     </option>
   </component>
@@ -419,7 +436,7 @@
       <workItem from="1489685707587" duration="4196000" />
       <workItem from="1489773236524" duration="1702000" />
       <workItem from="1489940055564" duration="1390000" />
-      <workItem from="1489941539547" duration="10338000" />
+      <workItem from="1489941539547" duration="14114000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1489953805986</created>
@@ -435,14 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489957442025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="search&gt;outline:none">
+      <created>1489957582427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489957582427</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17626000" />
+    <option name="totallyTimeSpent" value="21402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -454,7 +478,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.49317408" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Copy/Paste" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="518" y="71" width="330" height="586" />
       <window_info id="Ultimate PasteBin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -496,7 +520,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="search&gt;outline:none" />
+    <option name="LAST_COMMIT_MESSAGE" value="search&gt;outline:none" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -578,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/affiliate/account.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -619,15 +644,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/extension/module/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        <state relative-caret-position="255">
+          <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/themeglobal/themeglobal_top.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="34">
           <caret line="84" column="93" lean-forward="false" selection-start-line="84" selection-start-column="93" selection-end-line="84" selection-end-column="93" />
           <folding />
         </state>
@@ -635,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/account/account.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
@@ -647,8 +672,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/ru-ru/account/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
       </provider>

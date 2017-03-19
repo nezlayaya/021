@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f64cf6-e325-444c-af23-70643a31cccb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/cache/catalog/demo/compaq_presario-170x170.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/cache/placeholder-170x170.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css" afterPath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/account/account.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/account/account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/themeglobal/themeglobal_top.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/kingstorepro/template/themeglobal/themeglobal_top.tpl" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +24,8 @@
       <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+            <state relative-caret-position="501">
+              <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -423,7 +419,7 @@
       <workItem from="1489685707587" duration="4196000" />
       <workItem from="1489773236524" duration="1702000" />
       <workItem from="1489940055564" duration="1390000" />
-      <workItem from="1489941539547" duration="10213000" />
+      <workItem from="1489941539547" duration="10338000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1489953805986</created>
@@ -432,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489953805986</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1489957442025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489957442025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17501000" />
+    <option name="totallyTimeSpent" value="17626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -644,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/kingstorepro/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        <state relative-caret-position="501">
+          <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -127,3 +127,6 @@ fieldset{
     padding: 0;
     width: auto;
 }
+#search input{
+    outline: none;
+}

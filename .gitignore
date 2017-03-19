@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+/php.ini
+/.htaccess
+/config.php
+/admin/config.php

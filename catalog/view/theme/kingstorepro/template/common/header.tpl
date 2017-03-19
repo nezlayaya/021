@@ -28,14 +28,10 @@ $modules = new Modules($registry);
 	<meta name="keywords" content="<?php echo $keywords; ?>" />
 	<?php } ?>
 
-	
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic,300italic,500italic,700,700italic,900,900italic,100italic,100&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300,300italic,400italic,700italic&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
-	
 
-	
-	
 	<?php $listcssjs = array(
 			'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/bootstrap.css',
 			'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/stylesheet.css',
@@ -153,7 +149,9 @@ $modules = new Modules($registry);
     $listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/js/twitter-bootstrap-hover-dropdown.js';
     $listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/js/common.js';
     $listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/js/jquery.cookie.js';
-    
+	$listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/js/jscroller-0.4.js';
+    $listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/js/running_line.js';
+
     // Nivo slider
     if($config->get( 'slideshow_module' ) != '') $listcssjs[] = 'catalog/view/theme/' . $config->get($config->get('config_theme') . '_directory') . '/js/jquery.nivo.slider.pack.js';
     
@@ -352,33 +350,34 @@ $modules = new Modules($registry);
 <?php } ?>
 <div class="fixed-body">
 		<div id="main" class="main-fixed">
-
-		
-		
 		<header>
 			<div id="top-line">
 				<div class="container">
 					<div class="row">
-
-						
 						<div class="col-sm-6 hidden-xs">
+							<?php if(true === isset($hotline)): ?>
+							<div id="scroller_container">
+								<ul id="scroller">
+										<?php foreach($hotline as $line): ?>
+										<li>
+											<?=$line['text'];?> <a href="<?=$line['link']?>"><?=$line['name']?> <?=$line['model']?></a> за <?=$line['price']?>
+										</li>
+										<?php endforeach;?>
+								</ul>
+							</div>
+							<?php else: ?>
 							<div id="welcome">
 								<?php if($theme_options->get( 'welcome_text', $config->get( 'config_language_id' ) ) != '') { echo html_entity_decode($theme_options->get( 'welcome_text', $config->get( 'config_language_id' ) )); } else { echo ''; } ?>
 							</div>
+							<?php endif;?>
 						</div>
 				  
 						<div class="col-sm-6 col-xs-12 hidden-xs">
 							
 								<div class="quick-access">
-									
-								
-									
-									
-									
 									<div class="dropdown  my-account currency">
 										<?php echo $currency; ?>
 									</div>
-
 									<div class="dropdown  my-account language">
 										<?php echo $language; ?>
 									</div>

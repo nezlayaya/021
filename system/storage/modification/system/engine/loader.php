@@ -49,7 +49,7 @@ final class Loader {
 				include_once(modification($file));
 	
 				$proxy = new Proxy();
-				
+
 				foreach (get_class_methods($class) as $method) {
 					$proxy->{$method} = $this->callback($this->registry, $route . '/' . $method);
 				}

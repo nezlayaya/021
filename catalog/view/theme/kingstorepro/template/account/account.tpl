@@ -3,8 +3,9 @@ $theme_options = $registry->get('theme_options');
 $config = $registry->get('config'); 
 include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/template/themeglobal/themeglobal_top.tpl'); ?>
 
-<h2><?php echo $text_my_account; ?></h2>
+
 <div class="content">
+  <h2><?php echo $text_my_account; ?></h2>
 <ul class="list-unstyled">
   <li><a href="<?php echo $edit; ?>"><?php echo $text_edit; ?></a></li>
   <li><a href="<?php echo $password; ?>"><?php echo $text_password; ?></a></li>
@@ -12,8 +13,9 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
   <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
 </ul>
 </div>
-<h2><?php echo $text_my_orders; ?></h2>
+
 <div class="content">
+  <h2><?php echo $text_my_orders; ?></h2>
 <ul class="list-unstyled">
   <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
   <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
@@ -25,8 +27,9 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
   <li><a href="<?php echo $recurring; ?>"><?php echo $text_recurring; ?></a></li>
 </ul>
 </div>
-<h2><?php echo $text_my_newsletter; ?></h2>
+
 <div class="content">
+  <h2><?php echo $text_my_newsletter; ?></h2>
 <ul class="list-unstyled">
   <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
 </ul>

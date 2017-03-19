@@ -7,7 +7,7 @@ $config = $registry->get('config');
   <div class="strip-line"></div>
   <div class="box-content box-information" style="min-height: 488px;">
    <div class="box-information">
-    <ul class="accordion" id="accordion-category">
+    <ul class="accordion " id="accordion-category">
       <?php $i = 0; foreach ($categories as $category) { $i++; ?>
       <li>
         <?php if ($category['category_id'] == $category_id) { ?>

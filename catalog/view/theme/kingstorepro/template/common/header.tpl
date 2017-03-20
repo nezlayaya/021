@@ -313,7 +313,6 @@ $modules = new Modules($registry);
         </div>
     </div>
 </div>
-<?php echo $ulogin_form_marker;?>
 
 <?php if($theme_options->get( 'quick_view' ) != '0') { ?>
 
@@ -382,10 +381,12 @@ $modules = new Modules($registry);
 										<?php echo $language; ?>
 									</div>
 									<div class="dropdown  my-account tg-account hidden-xs hidden-sm">
+										<?php echo $ulogin_form_marker;?>
+
 										<div id="my-account">
 											<?php if ($logged) { ?>
 											<div class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
-												<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+												<a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
 											</div>
 											<ul class="dropdown-menu"  role="menu">
 												<li><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a></li>

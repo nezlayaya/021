@@ -2,8 +2,7 @@
 class ControllerCommonHeader extends Controller {
 	public function index() {
 
-	    // uLogin @TODO
-        $data['ulogin_form_marker'] = $this->load->controller('module/ulogin');
+        $data['ulogin_form_marker'] = $this->load->controller('extension/module/ulogin');
 
         // Analytics
 		$this->load->model('extension/extension');

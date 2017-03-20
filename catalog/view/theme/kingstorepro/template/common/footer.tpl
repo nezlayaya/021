@@ -1,5 +1,5 @@
 
-<?php 
+<?php
 if($registry->has('theme_options') == true) { 
 	$theme_options = $registry->get('theme_options');
 	$config = $registry->get('config');

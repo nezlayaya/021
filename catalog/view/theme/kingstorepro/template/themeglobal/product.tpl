@@ -43,7 +43,7 @@ $config = $registry->get('config');
 				
 				<?php if($theme_options->get( 'display_add_to_wishlist' ) != '0') { ?>
 					<div class="wishlist">
-						<a onclick="wishlist.add('<?php echo $product['product_id']; ?>');" title="<?php if($theme_options->get( 'add_to_wishlist_text', $config->get( 'config_language_id' ) ) != '') { echo $theme_options->get( 'add_to_wishlist_text', $config->get( 'config_language_id' ) ); } else { echo 'Add to wishlist'; } ?>" class="fa fa-heart-o product-icon"></a></a>	
+						<a onclick="wishlist.add('<?php echo $product['product_id']; ?>');" title="<?php if($theme_options->get( 'add_to_wishlist_text', $config->get( 'config_language_id' ) ) != '') { echo $theme_options->get( 'add_to_wishlist_text', $config->get( 'config_language_id' ) ); } else { echo 'Add to wishlist'; } ?>" class="fa fa-heart-o product-icon"></a></a>
 					</div>
 				<?php } ?>
 				

@@ -1,12 +1,13 @@
 <?php if($registry->has('theme_options') == true) { 
 $theme_options = $registry->get('theme_options');
-$config = $registry->get('config'); ?>
+$config = $registry->get('config');
+$isHidden = ($products || $vouchers) ? false: true;
+?>
 <!-- Cart block -->
-<div id="cart">
+<div id="cart" class="<?=($isHidden) ? 'hidden': '';?>">
 	<div class="cart-heading dropdown-toogle" data-hover="dropdown" data-toggle="dropdown">
 		
 		<span><p style="float: left;margin:0; margin-right: 30px;" class="hidden-sm hidden-md"><?php if($theme_options->get( 'mycart_text', $config->get( 'config_language_id' ) ) != '') { echo html_entity_decode($theme_options->get( 'mycart_text', $config->get( 'config_language_id' ) )); } else { echo 'View Cart'; } ?></p> <span id="cart-total" style="float: right;"><?php echo $text_items; ?></span></span>
-		
 	</div>
 	<div class="dropdown-menu" id="cart_content"><div id="cart_content_ajax">
 		<?php if ($products || $vouchers) { ?>

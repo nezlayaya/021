@@ -1,7 +1,10 @@
 <?php
 class ControllerCommonHeader extends Controller {
 	public function index() {
-		// Analytics
+
+        $data['ulogin_form_marker'] = $this->load->controller('extension/module/ulogin');
+
+        // Analytics
 		$this->load->model('extension/extension');
 
 		$data['analytics'] = array();
@@ -150,6 +153,30 @@ class ControllerCommonHeader extends Controller {
 			$data['class'] = 'common-home';
 		}
 
+		//hotline
+        $this->load->model('custom/hotline');
+        $orderProducts = $this->model_custom_hotline->getOrders();
+        if(0 < $orderProducts->num_rows) {
+
+            $url = new Url(HTTP_SERVER, $this->config->get('config_secure') ? HTTP_SERVER : HTTPS_SERVER);
+
+            $texts = [
+                'Только что купили',
+                'Поздравляем с покупкой ',
+                'Клиенты довольны приобритением ',
+
+            ];
+            $i = 0; foreach($orderProducts->rows as $row) {
+                $data['hotline'][] = [
+                    'text' => $texts[$i],
+                    'name' => $row['name'],
+                    'model'=> $row['model'],
+                    'link'=>  $url->link('product/product', 'product_id=' . $row['product_id']),
+                    'price'=> $this->currency->format($row['price'] * $row['quantity'], $this->session->data['currency'])
+                ];
+                $i++;
+            }
+        }
 		return $this->load->view('common/header', $data);
 	}
 }

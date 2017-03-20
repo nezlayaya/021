@@ -1,7 +1,11 @@
 <?php
 class ControllerCommonHeader extends Controller {
 	public function index() {
-		// Analytics
+
+	    // uLogin @TODO
+        $data['ulogin_form_marker'] = $this->load->controller('module/ulogin');
+
+        // Analytics
 		$this->load->model('extension/extension');
 
 		$data['analytics'] = array();
@@ -159,7 +163,9 @@ class ControllerCommonHeader extends Controller {
 
             $texts = [
                 'Только что купили',
-                'Поздравляем с покупкой '
+                'Поздравляем с покупкой ',
+                'Клиенты довольны приобритением ',
+
             ];
             $i = 0; foreach($orderProducts->rows as $row) {
                 $data['hotline'][] = [

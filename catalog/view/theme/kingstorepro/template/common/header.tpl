@@ -313,6 +313,7 @@ $modules = new Modules($registry);
         </div>
     </div>
 </div>
+<?php echo $ulogin_form_marker;?>
 
 <?php if($theme_options->get( 'quick_view' ) != '0') { ?>
 
@@ -371,9 +372,8 @@ $modules = new Modules($registry);
 							</div>
 							<?php endif;?>
 						</div>
-				  
+
 						<div class="col-sm-6 col-xs-12 hidden-xs">
-							
 								<div class="quick-access">
 									<div class="dropdown  my-account currency">
 										<?php echo $currency; ?>
@@ -381,28 +381,25 @@ $modules = new Modules($registry);
 									<div class="dropdown  my-account language">
 										<?php echo $language; ?>
 									</div>
-									
 									<div class="dropdown  my-account tg-account hidden-xs hidden-sm">
 										<div id="my-account">
+											<?php if ($logged) { ?>
 											<div class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
-												<?php echo $text_login; ?>
-											</div>
-											
-											<ul class="dropdown-menu"  role="menu">
-												<?php if ($logged) { ?>
 												<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+											</div>
+											<ul class="dropdown-menu"  role="menu">
 												<li><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a></li>
 												<li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
 												<li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
 												<li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
-												<?php } else { ?>
-												<li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
-												<li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
-												<li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
-												<li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
-												<?php } ?>
-											</ul>	
-										</div>	
+											</ul>
+											<?php } else { ?>
+												<ul class="" role="menu">
+													<li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
+													<li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+												</ul>
+											<?php } ?>
+										</div>
 									</div>
 	
 								</div>		

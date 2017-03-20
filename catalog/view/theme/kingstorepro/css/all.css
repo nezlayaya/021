@@ -34,13 +34,13 @@ div.quickview > a {
 .product-info .product-icon:hover,
 .htabs a:hover{
     color: #fff !important;
-    background-color: darkmagenta;
+    background-color: rgba(156, 39, 176, 0.67);
 }
 a.button:hover span{
     color: #fff !important;
 }
 ul.megamenu > li:hover{
-    background-color: darkmagenta;
+    background-color: rgba(156, 39, 176, 0.67);
 }
 ul.megamenu li .sub-menu .content {
 	
@@ -51,7 +51,7 @@ ul.megamenu li .sub-menu .content .hover-menu li > a {
 	color: #fff !important;
 }
 ul.megamenu li .sub-menu .content .hover-menu li > a:hover {
-    background-color: darkmagenta;
+    background-color: rgba(156, 39, 176, 0.67);
 }
 ul.megamenu > li:hover strong{
     color: #fff;
@@ -110,14 +110,14 @@ body .pull-right a:hover{
     padding: 20px;
 }
 .main-cabinet .content h2{
-    color: darkmagenta;
+    color: rgba(156, 39, 176, 0.67);
 }
 #title-page-main{
     display: block;
     text-align: center;
 }
 .breadcrumb a{
-    font-size: 12px;
+    font-size: 11px;
 }
 fieldset{
     text-align: center;
@@ -147,4 +147,7 @@ fieldset{
     white-space: nowrap;
     font-size: 14px;
     font-style: italic;
+}
+div.my-account.tg-account  div#my-account ul.dropdown-menu li a:hover {
+    color: #fff !important;
 }

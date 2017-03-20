@@ -271,8 +271,8 @@ var cart = {
 			data: 'key=' + key,
 			dataType: 'json',			
 			success: function(json) {
-
-                if(0 < json['total']) {
+				console.log(json);
+                if(0 < json['incart']) {
                     $('#cart').removeClass('hidden');
                 } else {
                     $('#cart').addClass('hidden');

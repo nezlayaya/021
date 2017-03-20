@@ -381,7 +381,7 @@ $modules = new Modules($registry);
 										<?php echo $language; ?>
 									</div>
 									<div class="dropdown  my-account tg-account hidden-xs hidden-sm">
-										<?php echo $ulogin_form_marker;?>
+
 
 										<div id="my-account">
 											<?php if ($logged) { ?>
@@ -401,6 +401,7 @@ $modules = new Modules($registry);
 												</ul>
 											<?php } ?>
 										</div>
+										<?php echo $ulogin_form_marker;?>
 									</div>
 	
 								</div>		

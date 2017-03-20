@@ -22,19 +22,25 @@ body a:hover{
 .htabs a.selected{
     border: 1px solid rgba(156, 39, 176, 0.3);
 }
+div.wishlist > a,
+div.compare > a,
+div.quickview > a {
+    border: 1px solid rgba(156, 39, 176, 0.3) !important;
+}
+
 #header .button-search:hover,
 .button:hover,
 .htabs a.selected:hover,
 .product-info .product-icon:hover,
 .htabs a:hover{
-    color: #090300;
-    background-color: darkmagenta;
+    color: #fff !important;
+    background-color: rgba(156, 39, 176, 0.67);
 }
 a.button:hover span{
-    color: #fff!important;
+    color: #fff !important;
 }
 ul.megamenu > li:hover{
-    background-color: darkmagenta;
+    background-color: rgba(156, 39, 176, 0.67);
 }
 ul.megamenu li .sub-menu .content {
 	
@@ -45,7 +51,7 @@ ul.megamenu li .sub-menu .content .hover-menu li > a {
 	color: #fff !important;
 }
 ul.megamenu li .sub-menu .content .hover-menu li > a:hover {
-    background-color: darkmagenta;
+    background-color: rgba(156, 39, 176, 0.67);
 }
 ul.megamenu > li:hover strong{
     color: #fff;
@@ -67,9 +73,13 @@ ul.megamenu > li:hover strong{
 .ulogin_form{
     display: inline-block;
     vertical-align: middle;
+    padding: 10px 0;
 }
 .panel{
-    background-color: #f5f5f5;
+    background-color: rgba(156, 39, 176, 0.09);
+}
+.my-account .dropdown-menu > li > a {
+    color: #000;
 }
 .product-grid .product .image .quickview a:hover,
 .product-grid .product .product-icon:hover{
@@ -110,14 +120,14 @@ body .pull-right a:hover{
     padding: 20px;
 }
 .main-cabinet .content h2{
-    color: darkmagenta;
+    color: rgba(156, 39, 176, 0.67);
 }
 #title-page-main{
     display: block;
     text-align: center;
 }
 .breadcrumb a{
-    font-size: 12px;
+    font-size: 11px;
 }
 fieldset{
     text-align: center;
@@ -125,7 +135,7 @@ fieldset{
 .form-group.required label{
     width: 100%;
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 0;
 }
 .form-group.required label+div{
@@ -136,6 +146,7 @@ fieldset{
 #search input{
     outline: none;
 }
+
 form.form-horizontal{
     width: 50%;
     margin: 0 auto;
@@ -144,6 +155,79 @@ form.form-horizontal input{
     text-align: center;
     margin: 15px 0;
 }
-.form-group label{
+.form-group label {
     display: none;
+}
+#scroller_container {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    overflow: hidden;
+}
+#scroller {
+    list-style: none;
+    white-space: nowrap;
+    font-size: 14px;
+    font-style: italic;
+}
+div.my-account.tg-account  div#my-account ul.dropdown-menu li a:hover {
+    color: #fff !important;
+}
+.quick-access{
+    float: none;
+}
+#my-account{
+    display: inline-block;
+    padding: 0 40px;
+}
+#my-account ul li{
+    display: inline-block;
+}
+.box-information > ul > li{
+    float: none;
+    padding: 0;
+}
+.box-information > ul > li a{
+    display: inline-block;
+}
+.box-content{
+    padding: 0;
+}
+ul.nav li a b.caret{
+    border-top-color: #8b008b;
+    border-bottom-color: #8b008b;
+}
+ul li.dropdown .dropdown-toggle{
+    padding: 0;
+}
+.nav .open > a, .nav .open > a:hover,
+.nav .open > a:focus{
+    border-top-color: #000;
+    border-bottom-color: #000;
+    background-color: #fff;
+}
+.nav > li > a:hover,
+.nav > li > a:focus{
+    background-color: #fff;
+}
+.box-content.box-information .box-information .nav .dropdown.open .dropdown-menu li:hover a{
+    color: #000!important;
+}
+.quick-access .dropdown-menu{
+    position: static;
+}
+.quick-access .quick-access .dropdown-menu li{
+    padding: 0;
+}
+.panel.panel-default{
+    padding: 0 10px;
+}
+.form-group div{
+    padding: 0;
+}
+.panel-body{
+    padding: 10px 0;
+}
+.panel-body label{
+    padding: 0;
 }

@@ -180,8 +180,14 @@ div.my-account.tg-account  div#my-account ul.dropdown-menu li a:hover {
     display: inline-block;
     padding: 0 40px;
 }
+#my-account div,
+#my-account ul{
+    display: inline-block;
+    padding: 0;
+}
 #my-account ul li{
     display: inline-block;
+    padding: 0 5px;
 }
 .box-information > ul > li{
     float: none;
@@ -225,9 +231,5 @@ ul li.dropdown .dropdown-toggle{
 .form-group div{
     padding: 0;
 }
-.panel-body{
-    padding: 10px 0;
-}
-.panel-body label{
-    padding: 0;
-}
+
+

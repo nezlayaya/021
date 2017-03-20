@@ -385,17 +385,17 @@ $modules = new Modules($registry);
 
 										<div id="my-account">
 											<?php if ($logged) { ?>
-											<div class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+											<div>
 												<a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
 											</div>
-											<ul class="dropdown-menu"  role="menu">
+											<ul>
 												<li><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a></li>
 												<li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
 												<li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
 												<li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
 											</ul>
 											<?php } else { ?>
-												<ul class="" role="menu">
+												<ul>
 													<li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
 													<li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
 												</ul>

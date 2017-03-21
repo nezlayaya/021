@@ -15,11 +15,13 @@ body a:hover{
 .product-grid .product .product-icon,
 .product-info .product-icon,
 .product-grid .product .image .quickview a,
-.htabs a.selected{
+.htabs a.selected,
+.htabs a{
     background-color: rgba(156, 39, 176, 0.46);
 }
 .button,
-.htabs a.selected{
+.htabs a.selected,
+.htabs a{
     border: 1px solid rgba(156, 39, 176, 0.3);
 }
 div.wishlist > a,

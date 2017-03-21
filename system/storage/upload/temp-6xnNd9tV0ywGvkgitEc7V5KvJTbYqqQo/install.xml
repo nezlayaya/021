@@ -1,0 +1,98 @@
+<modification>
+  <name>Accordion for category module</name>
+  <code>Accordion for category module</code>
+  <version>1.0.0</version>
+  <author>Fly-Studio</author>
+  <link>http://fly-studio.com.ua/</link>    
+  <file path="catalog/controller/module/category.php">
+
+    <operation error="log">
+      <search><![CDATA[$data['heading_title'] = $this->language->get('heading_title');]]></search>
+      <add position="after"><![CDATA[$data['text_category'] = $this->language->get('text_category');]]></add>
+    </operation> 
+
+    <operation error="log">
+      <search><![CDATA[$this->load->language('module/category');]]></search>
+      <add position="after"><![CDATA[$this->document->addStyle('catalog/view/theme/default/stylesheet/modcategory.css');]]></add>
+    </operation> 
+
+    <operation error="log">
+      <search><![CDATA[if ($category['category_id'] == $data['category_id']) {]]></search>
+      <add position="replace" offset="12"><![CDATA[     
+        $children = $this->model_catalog_category->getCategories($category['category_id']);
+
+        foreach($children as $child) {
+          $filter_data = array('filter_category_id' => $child['category_id'], 'filter_sub_category' => true);
+
+          $children_data[] = array(
+            'category_id' => $child['category_id'],
+            'name' => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+            'href' => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
+          );
+     
+      }]]></add>
+    </operation> 
+
+  </file>
+    <file path="catalog/view/theme/*/template/module/category.tpl">
+    <operation error="log">
+      <search><![CDATA[<div class="list-group">]]></search>
+      <add position="replace" offset="17"><![CDATA[<nav id="category-column">
+  <div class="navbar-header">
+    <span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+    <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target="#categories-list"><i class="fa fa-bars"></i></button>
+  </div>
+  <div id="categories-list" class="collapse navbar-collapse">
+    <ul class="list-group">
+      <?php foreach ($categories as $category) { ?>
+      <li>
+        <?php if ($category['category_id'] == $category_id) { ?>
+        <a href="<?php echo $category['href']; ?>" class="list-group-item is-active"><span class="category-name"><?php echo $category['name']; ?></span></a>
+          <?php if ($category['children']) { ?><a class="category-button"></a>
+          <ul>
+            <?php foreach ($category['children'] as $child) { ?>
+            <li>
+              <?php if ($child['category_id'] == $child_id) { ?>
+                <a href="<?php echo $child['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+              <?php } else { ?>
+                <a href="<?php echo $child['href']; ?>" class="list-group-item">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+              <?php } ?>
+            </li>
+            <?php } ?>
+          </ul>
+          <?php } ?>
+        <?php } else { ?>
+        <a href="<?php echo $category['href']; ?>" class="list-group-item"><span class="category-name"><?php echo $category['name']; ?></span></a>
+          <?php if ($category['children']) { ?><a class="category-button"></a>
+          <ul>
+           <?php foreach ($category['children'] as $child) { ?>
+            <li>
+              <?php if ($child['category_id'] == $child_id) { ?>
+                <a href="<?php echo $child['href']; ?>" class="list-group-item active">- <?php echo $child['name']; ?></a>
+              <?php } else { ?>
+                <a href="<?php echo $child['href']; ?>" class="list-group-item">- <?php echo $child['name']; ?></a>
+              <?php } ?>
+            </li>
+            <?php } ?>
+          </ul>
+          <?php } ?>
+        <?php } ?>
+      </li>
+      <?php } ?>
+
+      <script>
+      $('.list-group a.category-button').click(function(e, first){
+        e.preventDefault();
+        $('+ ul', $(this)).slideToggle(first ? 0 : 400);
+        $(this).parent().toggleClass('active');
+        return false;
+      });
+      $('.list-group .is-active + a.category-button').trigger('click', true);
+      </script>
+      
+    </ul>
+  </div>
+</nav>]]></add>
+    </operation> 
+  </file>
+</modification>

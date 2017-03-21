@@ -1,1 +1,16 @@
 2017-03-21 22:08:42 - PHP Warning:  unlink(D:/my-program/OpenServer/domains/021.com.ua/system/storage/cache/cache.product.seopath.1490126922): No such file or directory in D:\my-program\OpenServer\domains\021.com.ua\system\library\cache\file.php on line 68
+2017-03-22 1:59:10 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 360
+2017-03-22 1:59:10 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 1:59:10 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:04:19 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 360
+2017-03-22 2:04:19 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:04:19 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:04:22 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 360
+2017-03-22 2:04:22 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:04:22 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:05:58 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 360
+2017-03-22 2:05:58 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:05:58 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:06:01 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 360
+2017-03-22 2:06:01 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365
+2017-03-22 2:06:01 - PHP Notice:  Undefined variable: addthisData in M:\OpenServer\domains\021.com.ua\system\storage\modification\catalog\view\theme\kingstorepro\template\product\product.tpl on line 365

@@ -29,12 +29,18 @@ div.compare > a,
 div.quickview > a {
     border: 1px solid rgba(156, 39, 176, 0.3) !important;
 }
-
+ul.nav li.dropdown.open .dropdown-menu li a{
+    display: block;
+}
+.dropdown-menu li a:hover{
+    color: #fff!important;
+}
 #header .button-search:hover,
 .button:hover,
 .htabs a.selected:hover,
 .product-info .product-icon:hover,
-.htabs a:hover{
+.htabs a:hover,
+.dropdown-menu li a:hover{
     color: #fff !important;
     background-color: rgba(156, 39, 176, 0.67);
 }

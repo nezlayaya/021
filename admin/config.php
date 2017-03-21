@@ -8,18 +8,18 @@ define('HTTPS_SERVER', 'http://021.com.ua/admin/');
 define('HTTPS_CATALOG', 'http://021.com.ua/');
 
 // DIR
-define('DIR_APPLICATION', 'M:/OpenServer/domains/021.com.ua/admin/');
-define('DIR_SYSTEM', 'M:/OpenServer/domains/021.com.ua/system/');
-define('DIR_IMAGE', 'M:/OpenServer/domains/021.com.ua/image/');
-define('DIR_LANGUAGE', 'M:/OpenServer/domains/021.com.ua/admin/language/');
-define('DIR_TEMPLATE', 'M:/OpenServer/domains/021.com.ua/admin/view/template/');
-define('DIR_CONFIG', 'M:/OpenServer/domains/021.com.ua/system/config/');
-define('DIR_CACHE', 'M:/OpenServer/domains/021.com.ua/system/storage/cache/');
-define('DIR_DOWNLOAD', 'M:/OpenServer/domains/021.com.ua/system/storage/download/');
-define('DIR_LOGS', 'M:/OpenServer/domains/021.com.ua/system/storage/logs/');
-define('DIR_MODIFICATION', 'M:/OpenServer/domains/021.com.ua/system/storage/modification/');
-define('DIR_UPLOAD', 'M:/OpenServer/domains/021.com.ua/system/storage/upload/');
-define('DIR_CATALOG', 'M:/OpenServer/domains/021.com.ua/catalog/');
+define('DIR_APPLICATION', 'D:/my-program/OpenServer/domains/021.com.ua/admin/');
+define('DIR_SYSTEM', 'D:/my-program/OpenServer/domains/021.com.ua/system/');
+define('DIR_IMAGE', 'D:/my-program/OpenServer/domains/021.com.ua/image/');
+define('DIR_LANGUAGE', 'D:/my-program/OpenServer/domains/021.com.ua/admin/language/');
+define('DIR_TEMPLATE', 'D:/my-program/OpenServer/domains/021.com.ua/admin/view/template/');
+define('DIR_CONFIG', 'D:/my-program/OpenServer/domains/021.com.ua/system/config/');
+define('DIR_CACHE', 'D:/my-program/OpenServer/domains/021.com.ua/system/storage/cache/');
+define('DIR_DOWNLOAD', 'D:/my-program/OpenServer/domains/021.com.ua/system/storage/download/');
+define('DIR_LOGS', 'D:/my-program/OpenServer/domains/021.com.ua/system/storage/logs/');
+define('DIR_MODIFICATION', 'D:/my-program/OpenServer/domains/021.com.ua/system/storage/modification/');
+define('DIR_UPLOAD', 'D:/my-program/OpenServer/domains/021.com.ua/system/storage/upload/');
+define('DIR_CATALOG', 'D:/my-program/OpenServer/domains/021.com.ua/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');

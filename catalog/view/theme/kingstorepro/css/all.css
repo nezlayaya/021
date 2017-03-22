@@ -83,6 +83,13 @@ ul.megamenu > li:hover strong{
     vertical-align: middle;
     padding: 10px 0;
 }
+div.sale {
+    color: #fff !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.6;
+    background-color: rgba(156, 39, 176, 1);
+    border: 1px solid rgba(156, 39, 176, 0.3);
+}
 .panel{
     background-color: rgba(156, 39, 176, 0.09);
 }
@@ -187,7 +194,7 @@ div.my-account.tg-account  div#my-account ul.dropdown-menu li a:hover {
 #my-account{
     display: inline-block;
     padding: 0 40px;
-    line-height: 37px;
+    line-height: 17px;
     vertical-align: text-top;
 }
 #my-account div,

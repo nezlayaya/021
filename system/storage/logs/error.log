@@ -91,3 +91,89 @@
 2017-03-22 3:27:17 - PHP Notice:  Undefined variable: entry_sort_order in M:\OpenServer\domains\021.com.ua\admin\view\template\design\layout_form.tpl on line 140
 2017-03-22 3:29:50 - PHP Notice:  Undefined variable: entry_sort_order in M:\OpenServer\domains\021.com.ua\admin\view\template\design\layout_form.tpl on line 140
 2017-03-22 3:29:50 - PHP Notice:  Undefined variable: entry_sort_order in M:\OpenServer\domains\021.com.ua\admin\view\template\design\layout_form.tpl on line 140
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 20
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 22
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 23
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 24
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 25
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 26
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 27
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 29
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 30
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 31
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 32
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 33
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 35
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 36
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 37
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 38
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 43
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 46
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 48
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 54
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 60
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 66
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 68
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 70
+2017-03-22 5:13:22 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBrands::$data has no effect in M:\OpenServer\domains\021.com.ua\admin\controller\module\brands.php on line 80
+2017-03-22 5:16:11 - PHP Notice:  Undefined variable: header in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 1
+2017-03-22 5:16:11 - PHP Notice:  Undefined variable: footer in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 123
+2017-03-22 5:16:29 - PHP Notice:  Undefined variable: header in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 1
+2017-03-22 5:16:29 - PHP Notice:  Undefined variable: footer in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 123
+2017-03-22 5:16:49 - PHP Notice:  Undefined variable: footer in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 122
+2017-03-22 5:16:50 - PHP Notice:  Undefined variable: footer in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 122
+2017-03-22 5:18:29 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:18:29 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:18:30 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:18:30 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:18:30 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:18:30 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:20:48 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:20:48 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_loading in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 6
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: button_send in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 6
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: token in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 6
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_store in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 24
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_default in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 27
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: stores in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 28
+2017-03-22 5:20:51 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 28
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_to in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 35
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_newsletter in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 38
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_customer_all in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 39
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_customer_group in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 40
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_customer in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 41
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_affiliate_all in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 42
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_affiliate in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 43
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: text_product in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 44
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_customer_group in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 49
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: customer_groups in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 52
+2017-03-22 5:20:51 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 52
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: help_customer in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 59
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_customer in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 59
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_customer in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 61
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: help_affiliate in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 66
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_affiliate in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 66
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_affiliate in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 68
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: help_product in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 73
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_product in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 73
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_product in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 75
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_subject in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 80
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_subject in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 82
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_message in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 86
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: entry_message in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 88
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: lang in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 88
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: ckeditor in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 97
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: token in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 115
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: token in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 144
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: token in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 173
+2017-03-22 5:20:51 - PHP Notice:  Undefined variable: ckeditor in M:\OpenServer\domains\021.com.ua\admin\view\template\marketing\contact.tpl on line 199
+2017-03-22 5:21:00 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:21:00 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 96
+2017-03-22 5:22:24 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:24 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:25 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:25 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:26 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:26 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:42 - PHP Notice:  Undefined variable: layouts in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104
+2017-03-22 5:22:42 - PHP Warning:  Invalid argument supplied for foreach() in M:\OpenServer\domains\021.com.ua\admin\view\template\module\brands.tpl on line 104

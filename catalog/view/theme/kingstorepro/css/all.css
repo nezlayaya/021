@@ -1,8 +1,8 @@
 .megamenu-wrapper {
-    background-color: rgba(156, 39, 176, 0.3);
+    background-color: rgba(156, 39, 176, 0.46);
 }
 .megamenu-wrapper li strong {
-	color: darkmagenta;
+	color: #fff;
 }
 body a:hover{
     color: rgba(126, 9, 146, 0.99)!important;
@@ -89,6 +89,15 @@ div.sale {
     line-height: 1.6;
     background-color: rgba(156, 39, 176, 1);
     border: 1px solid rgba(156, 39, 176, 0.3);
+}
+#cart .checkout .button {
+    margin-right: 0
+}
+#cart_content {
+    background-color: whitesmoke;
+}
+#cart .checkout .button:first-child {
+    float: left;
 }
 .panel{
     background-color: rgba(156, 39, 176, 0.09);
@@ -182,8 +191,6 @@ form.form-horizontal input{
 #scroller {
     list-style: none;
     white-space: nowrap;
-    font-size: 14px;
-    font-style: italic;
 }
 div.my-account.tg-account  div#my-account ul.dropdown-menu li a:hover {
     color: #fff !important;

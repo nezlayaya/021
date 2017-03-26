@@ -25,9 +25,9 @@ $config = $registry->get('config');
                         <li>
                             <?php if ($child['category_id'] == $child_id) { ?>
                             <a href="<?php echo $child['href']; ?>" class="active">
-                                - <?php echo $child['name']; ?></a>
+                                 <?php echo $child['name']; ?></a>
                             <?php } else { ?>
-                            <a href="<?php echo $child['href']; ?>"> - <?php echo $child['name']; ?></a>
+                            <a href="<?php echo $child['href']; ?>">  <?php echo $child['name']; ?></a>
                             <?php } ?>
                         </li>
                         <?php } ?>

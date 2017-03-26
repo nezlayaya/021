@@ -63,7 +63,7 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
               <?php } ?>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group hidden">
             <label class="col-sm-2 control-label" for="input-fax"><?php echo $entry_fax; ?></label>
             <div class="col-sm-10">
               <input type="text" name="fax" value="<?php echo $fax; ?>" placeholder="<?php echo $entry_fax; ?>" id="input-fax" class="form-control" />
@@ -225,7 +225,7 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
         </fieldset>
         <fieldset id="address">
           <h2><?php echo $text_your_address; ?></h2>
-          <div class="form-group">
+          <div class="form-group hidden">
             <label class="col-sm-2 control-label" for="input-company"><?php echo $entry_company; ?></label>
             <div class="col-sm-10">
               <input type="text" name="company" value="<?php echo $company; ?>" placeholder="<?php echo $entry_company; ?>" id="input-company" class="form-control" />
@@ -240,7 +240,7 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
               <?php } ?>
             </div>
           </div>
-          <div class="form-group">
+          <div class=" hidden">
             <label class="col-sm-2 control-label" for="input-address-2"><?php echo $entry_address_2; ?></label>
             <div class="col-sm-10">
               <input type="text" name="address_2" value="<?php echo $address_2; ?>" placeholder="<?php echo $entry_address_2; ?>" id="input-address-2" class="form-control" />
@@ -255,7 +255,7 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
               <?php } ?>
             </div>
           </div>
-          <div class="form-group required">
+          <div class="form-group required hidden">
             <label class="col-sm-2 control-label" for="input-postcode"><?php echo $entry_postcode; ?></label>
             <div class="col-sm-10">
               <input type="text" name="postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?>" id="input-postcode" class="form-control" />
@@ -467,39 +467,41 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
             </div>
           </div>
         </fieldset>
-        <fieldset>
-          <h2><?php echo $text_newsletter; ?></h2>
-          <div class="form-group">
-            <label class="col-sm-2 control-label"><?php echo $entry_newsletter; ?></label>
-            <div class="col-sm-10">
-              <?php if ($newsletter) { ?>
-              <label class="radio-inline">
-                <input type="radio" name="newsletter" value="1" checked="checked" />
-                <?php echo $text_yes; ?></label>
-              <label class="radio-inline">
-                <input type="radio" name="newsletter" value="0" />
-                <?php echo $text_no; ?></label>
-              <?php } else { ?>
-              <label class="radio-inline">
-                <input type="radio" name="newsletter" value="1" />
-                <?php echo $text_yes; ?></label>
-              <label class="radio-inline">
-                <input type="radio" name="newsletter" value="0" checked="checked" />
-                <?php echo $text_no; ?></label>
-              <?php } ?>
-            </div>
-          </div>
-        </fieldset>
+        <!--<fieldset>-->
+          <!--<h2><?php echo $text_newsletter; ?></h2>-->
+          <!--<div class="form-group">-->
+            <!--<label class="col-sm-2 control-label"><?php echo $entry_newsletter; ?></label>-->
+            <!--<div class="col-sm-10">-->
+              <!--<?php if ($newsletter) { ?>-->
+              <!--<label class="radio-inline">-->
+                <!--<input type="radio" name="newsletter" value="1" checked="checked" />-->
+                <!--<?php echo $text_yes; ?></label>-->
+              <!--<label class="radio-inline">-->
+                <!--<input type="radio" name="newsletter" value="0" />-->
+                <!--<?php echo $text_no; ?></label>-->
+              <!--<?php } else { ?>-->
+              <!--<label class="radio-inline">-->
+                <!--<input type="radio" name="newsletter" value="1" />-->
+                <!--<?php echo $text_yes; ?></label>-->
+              <!--<label class="radio-inline">-->
+                <!--<input type="radio" name="newsletter" value="0" checked="checked" />-->
+                <!--<?php echo $text_no; ?></label>-->
+              <!--<?php } ?>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</fieldset>-->
 		<?php echo $captcha; ?>
         <?php if ($text_agree) { ?>
         <div class="buttons">
-          <div class="pull-right"><?php echo $text_agree; ?>
+          <div class="pull-right">
             <?php if ($agree) { ?>
-            <input type="checkbox" name="agree" value="1" checked="checked" />
+            <input type="checkbox" name="agree" id="agree" value="1" checked="checked" />
             <?php } else { ?>
-            <input type="checkbox" name="agree" value="1" />
+            <input type="checkbox" name="agree" id="agree" value="1" />
             <?php } ?>
-            &nbsp;
+            &nbsp
+            <label for="agree"> <span></span><?php echo $text_agree; ?></label>
+
             <input type="submit" value="<?php echo $button_continue; ?>" class="button" />
           </div>
         </div>

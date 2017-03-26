@@ -53,7 +53,7 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
         </fieldset>
         <fieldset>
           <h2><?php echo $text_your_address; ?></h2>
-          <div class="form-group">
+          <div class="form-group hidden">
             <label class="col-sm-2 control-label" for="input-company"><?php echo $entry_company; ?></label>
             <div class="col-sm-10">
               <input type="text" name="company" value="<?php echo $company; ?>" placeholder="<?php echo $entry_company; ?>" id="input-company" class="form-control" />
@@ -74,7 +74,7 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
               <?php } ?>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group hidden">
             <label class="col-sm-2 control-label" for="input-address-2"><?php echo $entry_address_2; ?></label>
             <div class="col-sm-10">
               <input type="text" name="address_2" value="<?php echo $address_2; ?>" placeholder="<?php echo $entry_address_2; ?>" id="input-address-2" class="form-control" />

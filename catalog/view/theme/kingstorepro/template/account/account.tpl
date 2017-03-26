@@ -18,22 +18,22 @@ include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_dire
     <h2><?php echo $text_my_orders; ?></h2>
     <ul class="list-unstyled">
       <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-      <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
+      <!--<li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>-->
       <?php if ($reward) { ?>
       <li><a href="<?php echo $reward; ?>"><?php echo $text_reward; ?></a></li>
       <?php } ?>
       <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
       <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
-      <li><a href="<?php echo $recurring; ?>"><?php echo $text_recurring; ?></a></li>
+      <!--<li><a href="<?php echo $recurring; ?>"><?php echo $text_recurring; ?></a></li>-->
     </ul>
   </div>
 
-  <div class="content">
-    <h2><?php echo $text_my_newsletter; ?></h2>
-    <ul class="list-unstyled">
-      <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
-    </ul>
-  </div>
+  <!--<div class="content">-->
+    <!--<h2><?php echo $text_my_newsletter; ?></h2>-->
+    <!--<ul class="list-unstyled">-->
+      <!--<li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>-->
+    <!--</ul>-->
+  <!--</div>-->
 </div>
 
 <?php include('catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/template/themeglobal/themeglobal_bottom.tpl'); ?>

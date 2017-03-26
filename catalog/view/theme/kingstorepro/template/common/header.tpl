@@ -42,7 +42,7 @@ $modules = new Modules($registry);
 			'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/slider.css', 
 			'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/all.css',
 			'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/magnific-popup.css'
-	); 
+	);
 	
 	// Carousel brands
 	if($config->get( 'carousel_module' ) != '') $listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/carousel.css';
@@ -52,8 +52,9 @@ $modules = new Modules($registry);
 		
 	if($theme_options->get( 'page_width' ) == 1) {
 		$listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/wide-grid.css';
-	} 
-	
+	}
+
+
 	if($theme_options->get( 'page_width' ) == 3) {
 		$listcssjs[] = 'catalog/view/theme/'.$config->get($config->get('config_theme') . '_directory').'/css/standard-grid.css';
 	} 

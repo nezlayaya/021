@@ -65,6 +65,9 @@ ul.megamenu li .sub-menu .content .hover-menu li > a {
 ul.megamenu li .sub-menu .content .hover-menu li > a:hover {
     background-color: rgba(156, 39, 176, 0.67);
 }
+ul.megamenu li .sub-menu .content .hover-menu li > a{
+    min-height: 40px;
+}
 ul.megamenu > li:hover strong{
     color: #fff;
 }
@@ -87,18 +90,17 @@ ul.megamenu > li:hover strong{
     vertical-align: middle;
     padding: 10px 0;
 }
-div.sale {
+.sale {
     color: #fff !important;
-    font-family: 'Roboto Condensed', sans-serif;
-    line-height: 1.6;
-    background-color: rgba(156, 39, 176, 1);
-    border: 1px solid rgba(156, 39, 176, 0.3);
+    font-family: 'ralewaymedium', sans-serif;
+    background: no-repeat url('../image/sale.png');
+    border: none;
+    width: 50px;
+    height: 42px;
+    padding: 13px 12px 0 0;
 }
 #cart .checkout .button {
     margin-right: 0
-}
-#cart_content {
-    background-color: whitesmoke;
 }
 #cart .checkout .button:first-child {
     float: left;
@@ -221,9 +223,15 @@ div.my-account.tg-account  div#my-account ul.dropdown-menu li a:hover {
 .box-information > ul > li{
     float: none;
     padding: 0;
+    border-bottom: 1px solid hsla(291, 64%, 42%, 0.46);
+    cursor: pointer;
+}
+.box-information > ul > li:hover h3 a{
+    color: #8b008b;
 }
 .box-information > ul > li a{
     display: inline-block;
+    padding: 5px;
 }
 .box-content{
     padding: 0;
@@ -235,6 +243,12 @@ ul.nav li a b.caret{
 ul li.dropdown .dropdown-toggle{
     padding: 0;
 }
+.nav h3:before{
+    content: "\f055";
+    display: inline-block;
+    font-family: 'FontAwesome';
+    color: #8b008b;
+}
 .nav .open > a, .nav .open > a:hover,
 .nav .open > a:focus{
     border-top-color: #000;
@@ -244,6 +258,34 @@ ul li.dropdown .dropdown-toggle{
 .nav > li > a:hover,
 .nav > li > a:focus{
     background-color: #fff;
+}
+.nav h3{
+    font-family: 'ralewaymedium', sans-serif!important;
+    line-height: 5px;
+    font-weight: normal;
+    border-bottom: 1px solid #fff;
+    padding: 0 10px;
+    margin: 0;
+}
+.nav h3:hover{
+    background-color: #fff;
+}
+.nav li:hover h3:before{
+    content: "\f056";
+    display: inline-block;
+    font-family: 'FontAwesome';
+    color: #8b008b;
+}
+.nav h3 a{
+    line-height: 35px;
+    color: #8b008b;
+}
+ul .submenu.nav li a{
+    font-size: 16px;
+    border-bottom: none;
+    padding: 5px 30px;
+    background-color: inherit;
+    color: #8b008b;
 }
 .quick-access .dropdown-menu{
     position: static;
@@ -256,6 +298,60 @@ ul li.dropdown .dropdown-toggle{
 }
 .form-group div{
     padding: 0;
+    width: 100%;
 }
-
+a.agree{
+    color: #8b008b;
+    display: block;
+}
+.form-horizontal .button{
+    display: block;
+    margin: 0 auto;
+}
+.success {
+    background-color: #f1d9f7;
+    border-color: #ce9ec9;
+}
+body a.agree:hover{
+    color: rgba(156, 39, 176, 0.46)!important;
+}
+body .pull-right{
+    float: none!important;
+}
+.buttons{
+    margin: 0;
+}
+.box-content{
+    border: none;
+}
+.box-filter ul li{
+    cursor: pointer;
+    position: relative;
+}
+/** Customize checkboxes with sprites **/
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + label {
+    color: #8b008b;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width: 24px;
+    height: 30px;
+    margin: 0 10px 0 0;
+    vertical-align: bottom;
+    background: url(../image/check_radio_sheet.png) 0 no-repeat;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../image/check_radio_sheet.png) -23px no-repeat;
+}
+.product-list .product-icon{
+    background-color: rgba(156, 39, 176, 0.46);
+}
+.product-list .product-icon:hover{
+    background-color: rgba(156, 39, 176, 0.67);
+    color: #fff!important;
+}
 

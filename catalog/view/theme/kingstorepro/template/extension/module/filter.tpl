@@ -9,12 +9,12 @@
           <?php if (in_array($filter['filter_id'], $filter_category)) { ?>
           <li>
             <input type="checkbox" value="<?php echo $filter['filter_id']; ?>" id="filter<?php echo $filter['filter_id']; ?>" checked="checked" />
-            <label for="filter<?php echo $filter['filter_id']; ?>"><?php echo $filter['name']; ?></label>
+            <label for="filter<?php echo $filter['filter_id']; ?>"><span></span><?php echo $filter['name']; ?></label>
           </li>
           <?php } else { ?>
           <li>
             <input type="checkbox" value="<?php echo $filter['filter_id']; ?>" id="filter<?php echo $filter['filter_id']; ?>" />
-            <label for="filter<?php echo $filter['filter_id']; ?>"><?php echo $filter['name']; ?></label>
+            <label for="filter<?php echo $filter['filter_id']; ?>"><span></span><?php echo $filter['name']; ?></label>
           </li>
           <?php } ?>
           <?php } ?>

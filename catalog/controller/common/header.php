@@ -167,13 +167,15 @@ class ControllerCommonHeader extends Controller {
 
             ];
             $i = 0; foreach($orderProducts->rows as $row) {
-                $data['hotline'][] = [
+                if(true === isset($texts[$i])) {
+                    $data['hotline'][] = [
                     'text' => $texts[$i],
                     'name' => $row['name'],
                     'model'=> $row['model'],
                     'link'=>  $url->link('product/product', 'product_id=' . $row['product_id']),
                     'price'=> $this->currency->format($row['price'] * $row['quantity'], $this->session->data['currency'])
                 ];
+                }
                 $i++;
             }
         }
